@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MH-MINI-360
+#
+DEF MH-MINI-360 U 0 40 N Y 1 L N
+F0 "U" -300 -300 50 H V L BNN
+F1 "MH-MINI-360" -300 300 50 H V L BNN
+F2 "MH-MINI-360" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -300 200 300 200 N
+P 2 0 0 10 300 200 300 -200 N
+P 2 0 0 10 300 -200 -300 -200 N
+P 2 0 0 10 -300 -200 -300 200 N
+X -IN P$1 -500 -100 200 R 40 40 0 0 W 
+X +IN P$2 -500 100 200 R 40 40 0 0 W 
+X +OUT P$3 500 100 200 L 40 40 0 0 W 
+X -OUT P$4 500 -100 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

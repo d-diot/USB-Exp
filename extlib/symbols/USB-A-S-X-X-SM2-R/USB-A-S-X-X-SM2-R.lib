@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# USB-A-S-X-X-SM2-R
+#
+DEF USB-A-S-X-X-SM2-R J 0 40 Y Y 1 L N
+F0 "J" -200 350 50 H V L BNN
+F1 "USB-A-S-X-X-SM2-R" -200 -500 50 H V L BNN
+F2 "SAMTEC_USB-A-S-X-X-SM2-R" 0 0 50 H I L BNN
+F3 "T" 0 0 50 H I L BNN
+F4 "7.8 mm" 0 0 50 H I L BNN
+F5 "Manufacturer Recommendations" 0 0 50 H I L BNN
+F6 "Samtec" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -200 300 -200 -400 N
+P 2 0 0 10 -200 -400 200 -400 N
+P 2 0 0 10 200 -400 200 300 N
+P 2 0 0 10 200 300 -200 300 N
+X VCC 01 -400 200 200 R 40 40 0 0 W 
+X D- 02 -400 100 200 R 40 40 0 0 B 
+X D+ 03 -400 0 200 R 40 40 0 0 B 
+X GND 04 -400 -100 200 R 40 40 0 0 W 
+X SHIELD S1 -400 -300 200 R 40 40 0 0 P 
+X SHIELD S2 -400 -300 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name mysensors_connectors)(type KiCad)(uri ${KIPRJMOD}/extlib/footprint/mysensors_connectors.pretty)(options "")(descr ""))
+  (lib (name USB-A-S-X-X-SM2-R)(type KiCad)(uri ${KIPRJMOD}/extlib/footprint/USB-A-S-X-X-SM2-R)(options "")(descr ""))
+  (lib (name MH-MINI-360)(type Legacy)(uri ${KIPRJMOD}/extlib/footprint/MH-MINI-360/MH-MINI-360.mod)(options "")(descr ""))
+  (lib (name 1437566-3)(type Legacy)(uri ${KIPRJMOD}/extlib/footprint/push_button/1437566-3.mod)(options "")(descr ""))
+  (lib (name d-diot)(type KiCad)(uri ${KIPRJMOD}/extlib/footprint/Logo/d-diot.pretty)(options "")(descr ""))
+)
