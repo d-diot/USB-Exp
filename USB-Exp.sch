@@ -200,8 +200,6 @@ F 3 "" H 4950 1550 50  0001 C CNN
 	1    4950 1550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4650 1900 4650 1800
 $Comp
 L power:GND #PWR013
 U 1 1 5EEC497C
@@ -216,30 +214,24 @@ $EndComp
 $Comp
 L Device:R R9
 U 1 1 5EECCD0E
-P 4500 1800
-F 0 "R9" V 4293 1800 50  0000 C CNN
-F 1 "100K" V 4384 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4430 1800 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810301614_UNI-ROYAL-Uniroyal-Elec-TC0525F1003T5E_C57246.pdf" H 4500 1800 50  0001 C CNN
-F 4 "Resistor 100 KOhm SMD 0805" H 4500 1800 50  0001 C CNN "Description"
-F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0525F1003T5E_C57246.html" H 4500 1800 50  0001 C CNN "Link"
-F 6 "50" H 4500 1800 50  0001 C CNN "MOQ"
-F 7 "TC0525F1003T5E" H 4500 1800 50  0001 C CNN "MPN"
-F 8 "UNI-ROYAL(Uniroyal Elec)" H 4500 1800 50  0001 C CNN "Manufacturer"
-F 9 "0.007" H 4500 1800 50  0001 C CNN "Price"
-F 10 "C57246" H 4500 1800 50  0001 C CNN "VPN"
-F 11 "LCSC" H 4500 1800 50  0001 C CNN "Vendor"
-	1    4500 1800
+P 4500 2450
+F 0 "R9" V 4293 2450 50  0000 C CNN
+F 1 "100K" V 4384 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4430 2450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810301614_UNI-ROYAL-Uniroyal-Elec-TC0525F1003T5E_C57246.pdf" H 4500 2450 50  0001 C CNN
+F 4 "Resistor 100 KOhm SMD 0805" H 4500 2450 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0525F1003T5E_C57246.html" H 4500 2450 50  0001 C CNN "Link"
+F 6 "50" H 4500 2450 50  0001 C CNN "MOQ"
+F 7 "TC0525F1003T5E" H 4500 2450 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec)" H 4500 2450 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 4500 2450 50  0001 C CNN "Price"
+F 10 "C57246" H 4500 2450 50  0001 C CNN "VPN"
+F 11 "LCSC" H 4500 2450 50  0001 C CNN "Vendor"
+	1    4500 2450
 	0    1    1    0   
 $EndComp
-Connection ~ 4650 1800
-Wire Wire Line
-	4650 1800 4650 1550
-Wire Wire Line
-	4350 1800 4350 2100
 Wire Wire Line
 	4200 2100 4350 2100
-Connection ~ 4350 2100
 $Comp
 L Device:R R3
 U 1 1 5EED1309
@@ -404,8 +396,6 @@ F 3 "" H 4900 3700 50  0001 C CNN
 	1    4900 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4600 4050 4600 3950
 $Comp
 L power:GND #PWR011
 U 1 1 5EEEFB77
@@ -420,30 +410,24 @@ $EndComp
 $Comp
 L Device:R R7
 U 1 1 5EEEFB81
-P 4450 3950
-F 0 "R7" V 4243 3950 50  0000 C CNN
-F 1 "100K" V 4334 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 3950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810301614_UNI-ROYAL-Uniroyal-Elec-TC0525F1003T5E_C57246.pdf" H 4450 3950 50  0001 C CNN
-F 4 "Resistor 100 KOhm SMD 0805" H 4450 3950 50  0001 C CNN "Description"
-F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0525F1003T5E_C57246.html" H 4450 3950 50  0001 C CNN "Link"
-F 6 "50" H 4450 3950 50  0001 C CNN "MOQ"
-F 7 "TC0525F1003T5E" H 4450 3950 50  0001 C CNN "MPN"
-F 8 "UNI-ROYAL(Uniroyal Elec)" H 4450 3950 50  0001 C CNN "Manufacturer"
-F 9 "0.007" H 4450 3950 50  0001 C CNN "Price"
-F 10 "C57246" H 4450 3950 50  0001 C CNN "VPN"
-F 11 "LCSC" H 4450 3950 50  0001 C CNN "Vendor"
-	1    4450 3950
+P 4450 4600
+F 0 "R7" V 4243 4600 50  0000 C CNN
+F 1 "100K" V 4334 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 4600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810301614_UNI-ROYAL-Uniroyal-Elec-TC0525F1003T5E_C57246.pdf" H 4450 4600 50  0001 C CNN
+F 4 "Resistor 100 KOhm SMD 0805" H 4450 4600 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0525F1003T5E_C57246.html" H 4450 4600 50  0001 C CNN "Link"
+F 6 "50" H 4450 4600 50  0001 C CNN "MOQ"
+F 7 "TC0525F1003T5E" H 4450 4600 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec)" H 4450 4600 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 4450 4600 50  0001 C CNN "Price"
+F 10 "C57246" H 4450 4600 50  0001 C CNN "VPN"
+F 11 "LCSC" H 4450 4600 50  0001 C CNN "Vendor"
+	1    4450 4600
 	0    1    1    0   
 $EndComp
-Connection ~ 4600 3950
-Wire Wire Line
-	4600 3950 4600 3700
-Wire Wire Line
-	4300 3950 4300 4250
 Wire Wire Line
 	4150 4250 4300 4250
-Connection ~ 4300 4250
 $Comp
 L Device:R R1
 U 1 1 5EEEFB90
@@ -599,8 +583,6 @@ F 3 "" H 4900 5900 50  0001 C CNN
 	1    4900 5900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4600 6250 4600 6150
 $Comp
 L power:GND #PWR012
 U 1 1 5EF212B6
@@ -615,30 +597,24 @@ $EndComp
 $Comp
 L Device:R R8
 U 1 1 5EF212C0
-P 4450 6150
-F 0 "R8" V 4243 6150 50  0000 C CNN
-F 1 "100K" V 4334 6150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 6150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810301614_UNI-ROYAL-Uniroyal-Elec-TC0525F1003T5E_C57246.pdf" H 4450 6150 50  0001 C CNN
-F 4 "Resistor 100 KOhm SMD 0805" H 4450 6150 50  0001 C CNN "Description"
-F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0525F1003T5E_C57246.html" H 4450 6150 50  0001 C CNN "Link"
-F 6 "50" H 4450 6150 50  0001 C CNN "MOQ"
-F 7 "TC0525F1003T5E" H 4450 6150 50  0001 C CNN "MPN"
-F 8 "UNI-ROYAL(Uniroyal Elec)" H 4450 6150 50  0001 C CNN "Manufacturer"
-F 9 "0.007" H 4450 6150 50  0001 C CNN "Price"
-F 10 "C57246" H 4450 6150 50  0001 C CNN "VPN"
-F 11 "LCSC" H 4450 6150 50  0001 C CNN "Vendor"
-	1    4450 6150
+P 4450 6800
+F 0 "R8" V 4243 6800 50  0000 C CNN
+F 1 "100K" V 4334 6800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 6800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810301614_UNI-ROYAL-Uniroyal-Elec-TC0525F1003T5E_C57246.pdf" H 4450 6800 50  0001 C CNN
+F 4 "Resistor 100 KOhm SMD 0805" H 4450 6800 50  0001 C CNN "Description"
+F 5 "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_Uniroyal-Elec-TC0525F1003T5E_C57246.html" H 4450 6800 50  0001 C CNN "Link"
+F 6 "50" H 4450 6800 50  0001 C CNN "MOQ"
+F 7 "TC0525F1003T5E" H 4450 6800 50  0001 C CNN "MPN"
+F 8 "UNI-ROYAL(Uniroyal Elec)" H 4450 6800 50  0001 C CNN "Manufacturer"
+F 9 "0.007" H 4450 6800 50  0001 C CNN "Price"
+F 10 "C57246" H 4450 6800 50  0001 C CNN "VPN"
+F 11 "LCSC" H 4450 6800 50  0001 C CNN "Vendor"
+	1    4450 6800
 	0    1    1    0   
 $EndComp
-Connection ~ 4600 6150
-Wire Wire Line
-	4600 6150 4600 5900
-Wire Wire Line
-	4300 6150 4300 6450
 Wire Wire Line
 	4150 6450 4300 6450
-Connection ~ 4300 6450
 $Comp
 L Device:R R2
 U 1 1 5EF212CF
@@ -833,11 +809,11 @@ Text GLabel 1300 3350 1    50   Input ~ 0
 Vin
 Text GLabel 8400 1250 0    50   Input ~ 0
 Vin
-Text GLabel 4650 2300 3    50   Input ~ 0
+Text GLabel 4650 2500 3    50   Input ~ 0
 Vin
-Text GLabel 4600 4450 3    50   Input ~ 0
+Text GLabel 4600 4650 3    50   Input ~ 0
 Vin
-Text GLabel 4600 6650 3    50   Input ~ 0
+Text GLabel 4600 6900 3    50   Input ~ 0
 Vin
 $Comp
 L Jumper:Jumper_3_Open JP1
@@ -989,4 +965,34 @@ Text GLabel 8400 1450 0    50   Input ~ 0
 D1-TXD
 Text GLabel 8400 4700 3    50   Input ~ 0
 D1-TXD
+Wire Wire Line
+	4600 4450 4600 4600
+Wire Wire Line
+	4600 3700 4600 4050
+Connection ~ 4600 4600
+Wire Wire Line
+	4600 4600 4600 4650
+Wire Wire Line
+	4300 4600 4300 4250
+Connection ~ 4300 4250
+Wire Wire Line
+	4650 2300 4650 2450
+Wire Wire Line
+	4650 1550 4650 1900
+Connection ~ 4650 2450
+Wire Wire Line
+	4650 2450 4650 2500
+Wire Wire Line
+	4350 2450 4350 2100
+Connection ~ 4350 2100
+Wire Wire Line
+	4600 5900 4600 6250
+Wire Wire Line
+	4600 6900 4600 6800
+Connection ~ 4600 6800
+Wire Wire Line
+	4600 6800 4600 6650
+Wire Wire Line
+	4300 6800 4300 6450
+Connection ~ 4300 6450
 $EndSCHEMATC
