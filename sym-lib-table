@@ -2,4 +2,5 @@
   (lib (name mysensors_connectors)(type Legacy)(uri ${KIPRJMOD}/extlib/symbols/mysensors_symbols/mysensors_connectors.lib)(options "")(descr ""))
   (lib (name USB-A-S-X-X-SM2-R)(type Legacy)(uri ${KIPRJMOD}/extlib/symbols/USB-A-S-X-X-SM2-R/USB-A-S-X-X-SM2-R.lib)(options "")(descr ""))
   (lib (name MH-MINI-360)(type Legacy)(uri ${KIPRJMOD}/extlib/symbols/MH-MINI-360/MH-MINI-360.lib)(options "")(descr ""))
+  (lib (name USB-Exp-rescue)(type Legacy)(uri ${KIPRJMOD}/USB-Exp-rescue.lib)(options "")(descr ""))
 )

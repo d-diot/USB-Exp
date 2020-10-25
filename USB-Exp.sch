@@ -85,7 +85,7 @@ F 11 "Mouser" H 1550 6850 50  0001 C CNN "Vendor"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:USB_B_Micro J1
+L USB-Exp-rescue:USB_B_Micro-Connector J1
 U 1 1 5EEA5654
 P 1500 3650
 F 0 "J1" H 1557 4117 50  0000 C CNN
